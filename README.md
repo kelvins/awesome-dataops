@@ -4,6 +4,12 @@ A curated list of awesome DataOps tools.
 
 - [Awesome DataOps](#awesome-dataops)
     - [Database](#database)
+        - [Columnar Database](#columnar-database)
+        - [Document-Oriented Database](#document-oriented-database)
+        - [Graph Database](#graph-database)
+        - [Key-Value Database](#key-value-database)
+        - [Relational Database](#relational-database) 
+        - [Time Series Database](#time-series-database)
     - [Data Catalog](#data-catalog)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
@@ -29,9 +35,41 @@ A curated list of awesome DataOps tools.
 
 *Database tools for storing data.*
 
+### Columnar Database
+
+* [Cassandra]()
+
+### Document-Oriented Database
+
+* [MongoDB]()
+
+### Graph Database
+
+* [Neo4j]()
+* [Titan]()
+
+### Key-Value Database
+
+* [Memcached]()
+* [Redis]()
+
+### Relational Database
+
+* [MariaDB]()
+* [MySQL]()
+* [PostgreSQL]()
+
+### Time Series Database
+
+* [TimescaleDB]()
+
 ## Data Catalog
 
 *Tools related to data cataloging.*
+
+* [Amundsen]()
+* [CKAN]()
+* [OpenMetadata]()
 
 ## Data Ingestion
 
@@ -41,9 +79,15 @@ A curated list of awesome DataOps tools.
 
 *Tools related to storing data in data lakes.*
 
+* [LakeFS]()
+
 ## Data Pipeline
 
 *Tools related to data pipeline/workflow.*
+
+* [Airflow]()
+* [Luigi]()
+* [Dagster]()
 
 ## Data Platform
 
@@ -54,6 +98,11 @@ A curated list of awesome DataOps tools.
 ## Data Serialization
 
 *Tools related to serializing data.*
+
+* [Avro]()
+* [Delta Lake]()
+* [Parquet]()
+* [Snappy]()
 
 ## Data Visualization
 
@@ -72,9 +121,18 @@ A curated list of awesome DataOps tools.
 
 *Tools related to file system and data storage.*
 
+* [GCS]()
+* [HDFS]()
+* [MinIO]()
+* [S3]()
+* [Swift]()
+
 ## Monitoring
 
 *Tools used for monitoring data storage and workflows.*
+
+* [Prometheus]()
+* [Grafana]()
 
 ## SQL Query Engine
 
@@ -95,6 +153,8 @@ Where to discover new tools and discuss about existing ones.
 
 ## Books
 
+* [Trino: The Definitive Guide](https://www.oreilly.com/library/view/trino-the-definitive/9781098107703/) (O'Reilly)
+
 ## Events
 
 ## Other Lists
@@ -103,6 +163,9 @@ Where to discover new tools and discuss about existing ones.
 * [DataOps Resource](https://github.com/chen1649chenli/dataOpsResource)
 
 ## Slack
+
+* [Delta Lake Workspace](https://delta-users.slack.com/ssb/redirect)
+* [Trino Workspace](https://trinodb.slack.com/ssb/redirect)
 
 ---
 
