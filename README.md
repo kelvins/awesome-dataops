@@ -3,13 +3,6 @@
 A curated list of awesome DataOps tools.
 
 - [Awesome DataOps](#awesome-dataops)
-    - [Database](#database)
-        - [Columnar Database](#columnar-database)
-        - [Document-Oriented Database](#document-oriented-database)
-        - [Graph Database](#graph-database)
-        - [Key-Value Database](#key-value-database)
-        - [Relational Database](#relational-database) 
-        - [Time Series Database](#time-series-database)
     - [Data Catalog](#data-catalog)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
@@ -18,6 +11,13 @@ A curated list of awesome DataOps tools.
     - [Data Serialization](#data-serialization)
     - [Data Visualization](#data-visualization)
     - [Data Warehouse](#data-warehouse)
+    - [Database](#database)
+        - [Columnar Database](#columnar-database)
+        - [Document-Oriented Database](#document-oriented-database)
+        - [Graph Database](#graph-database)
+        - [Key-Value Database](#key-value-database)
+        - [Relational Database](#relational-database)
+        - [Time Series Database](#time-series-database)
     - [File System](#file-system)
     - [Monitoring](#monitoring)
     - [SQL Query Engine](#sql-query-engine)
@@ -30,6 +30,60 @@ A curated list of awesome DataOps tools.
 - [Contributing](#contributing)
 
 ---
+
+## Data Catalog
+
+*Tools related to data cataloging.*
+
+* [Amundsen]()
+* [CKAN]()
+* [OpenMetadata]()
+
+## Data Ingestion
+
+*Tools for performing data ingestion.*
+
+## Data Lake
+
+*Tools related to storing data in data lakes.*
+
+* [LakeFS]()
+
+## Data Pipeline
+
+*Tools related to data pipeline/workflow.*
+
+* [Airflow]()
+* [Dagster]()
+* [Luigi]()
+
+## Data Platform
+
+*Tools with multiple purposes related to data operations.*
+
+* [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
+
+## Data Serialization
+
+*Tools related to serializing data.*
+
+* [Avro]()
+* [Delta Lake]()
+* [Parquet]()
+* [Snappy]()
+
+## Data Visualization
+
+*Tools for performing data visualization (DataViz).*
+
+* [HUE](https://github.com/cloudera/hue) - A mature SQL Assistant for querying Databases & Data Warehouses.
+* [Superset](https://github.com/apache/superset) - A modern data exploration and data visualization platform.
+
+## Data Warehouse
+
+*Tools related to storing data in data warehouses (DW).*
+
+* [Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
 
 ## Database
 
@@ -63,60 +117,6 @@ A curated list of awesome DataOps tools.
 
 * [TimescaleDB]()
 
-## Data Catalog
-
-*Tools related to data cataloging.*
-
-* [Amundsen]()
-* [CKAN]()
-* [OpenMetadata]()
-
-## Data Ingestion
-
-*Tools for performing data ingestion.*
-
-## Data Lake
-
-*Tools related to storing data in data lakes.*
-
-* [LakeFS]()
-
-## Data Pipeline
-
-*Tools related to data pipeline/workflow.*
-
-* [Airflow]()
-* [Luigi]()
-* [Dagster]()
-
-## Data Platform
-
-*Tools with multiple purposes related to data operations.*
-
-* [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
-
-## Data Serialization
-
-*Tools related to serializing data.*
-
-* [Avro]()
-* [Delta Lake]()
-* [Parquet]()
-* [Snappy]()
-
-## Data Visualization
-
-*Tools for performing data visualization (DataViz).*
-
-* [HUE](https://github.com/cloudera/hue) - A mature SQL Assistant for querying Databases & Data Warehouses.
-* [Superset](https://github.com/apache/superset) - A modern data exploration and data visualization platform.
-
-## Data Warehouse
-
-*Tools related to storing data in data warehouses (DW).*
-
-* [Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
-
 ## File System
 
 *Tools related to file system and data storage.*
@@ -131,8 +131,8 @@ A curated list of awesome DataOps tools.
 
 *Tools used for monitoring data storage and workflows.*
 
-* [Prometheus]()
 * [Grafana]()
+* [Prometheus]()
 
 ## SQL Query Engine
 
