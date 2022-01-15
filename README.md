@@ -98,6 +98,8 @@ A curated list of awesome DataOps tools.
 
 ### Batch Processing
 
+* [Apache Tez](https://github.com/apache/tez) - A generic data-processing pipeline engine envisioned as a low-level engine.
+
 ### Stream Processing
 
 * [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
