@@ -258,6 +258,7 @@ Where to discover new tools and discuss about existing ones.
 ## Other Lists
 
 * [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering)
+* [Awesome MLOps](https://github.com/kelvins/awesome-mlops)
 * [DataOps Resource](https://github.com/chen1649chenli/dataOpsResource)
 
 ## Slack
