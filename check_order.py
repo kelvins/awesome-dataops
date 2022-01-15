@@ -7,7 +7,7 @@ def main(path):
     for line in lines:
         if line.startswith(('    ', '* [')):
             data.append(line)
-        elif line.startswith(('- [', '## ')):
+        elif line.startswith(('- [', '## ', '### ')):
             if data != sorted(data, key=str.casefold):
                 raise Exception('The content is not alphabetically sorted!')
             data = list()
