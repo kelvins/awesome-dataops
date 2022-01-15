@@ -141,13 +141,13 @@ A curated list of awesome DataOps tools.
 * [Cassandra](https://github.com/apache/cassandra) - Open source column based DBMS designed to handle large amounts of data.
 * [Druid](https://github.com/apache/druid) - Designed to quickly ingest massive quantities of event data, and provide low-latency queries.
 * [HBase](https://github.com/apache/hbase) - An open-source, distributed, versioned, column-oriented store.
-* [Scylla](https://github.com/scylladb/scylla) - Designed to be compatible with Cassandra while achieving significantly higher throughputs and lower latencies.
+* [Scylla](https://github.com/scylladb/scylla) - Designed to be compatible with Cassandra while achieving higher throughputs and lower latencies.
 
 ### Document-Oriented Database
 
 * [CouchDB](https://github.com/apache/couchdb) - An open-source document-oriented NoSQL database, implemented in Erlang.
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - A distributed document oriented database with a RESTful search engine.
-* [MongoDB](https://github.com/mongodb/mongo) - A cross-platform document-oriented database that uses JSON-like documents with optional schemas.
+* [MongoDB](https://github.com/mongodb/mongo) - A cross-platform document database that uses JSON-like documents with optional schemas.
 * [RethinkDB](https://github.com/rethinkdb/rethinkdb) - The first open-source scalable database built for realtime applications.
 
 ### Graph Database
@@ -165,9 +165,9 @@ A curated list of awesome DataOps tools.
 
 ### Relational Database
 
-* [CockroachDB](https://github.com/cockroachdb/cockroach) - A cloud-native distributed SQL database designed to build, scale, and manage data-intensive applications.
+* [CockroachDB](https://github.com/cockroachdb/cockroach) - A cloud-native distributed database designed to build, scale, and manage data-intensive apps.
 * [Crate](https://github.com/crate/crate) - A distributed SQL database that makes it simple to store and analyze massive amounts of data.
-* [MariaDB](https://github.com/MariaDB/server) - A replacement of MySQL with more features, new storage engines, fewer bugs, and better performance.
+* [MariaDB](https://github.com/MariaDB/server) - A replacement of MySQL with more features, new storage engines and better performance.
 * [MySQL](https://github.com/mysql/mysql-server) - One of the most popular open source transactional databases.
 * [PostgreSQL](https://github.com/postgres/postgres) - An advanced RDBMS that supports an extended subset of the SQL standard.
 * [RQLite](https://github.com/rqlite/rqlite) - A lightweight, distributed relational database, which uses SQLite as its storage engine.
@@ -198,7 +198,7 @@ A curated list of awesome DataOps tools.
 
 *Tools used for logging and monitoring data workflows.*
 
-* [Grafana](https://github.com/grafana/grafana) - Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, InfluxDB and many more.
+* [Grafana](https://github.com/grafana/grafana) - Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, InfluxDB and more.
 * [Loki](https://github.com/grafana/loki) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [Prometheus](https://github.com/prometheus/prometheus) - A monitoring system and time series database.
 
