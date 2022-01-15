@@ -4,6 +4,7 @@ A curated list of awesome DataOps tools.
 
 - [Awesome DataOps](#awesome-dataops)
     - [Data Catalog](#data-catalog)
+    - [Data Compression](#data-compression)
     - [Data Exploration](#data-exploration)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
@@ -49,6 +50,13 @@ A curated list of awesome DataOps tools.
 * [Metacat](https://github.com/Netflix/metacat) - Unified metadata exploration API service for Hive, RDS, Teradata, Redshift, S3 and Cassandra.
 * [OpenMetadata](https://open-metadata.org/) - A Single place to discover, collaborate and get your data right.
 
+## Data Compression
+
+*Tools for performing data compression.*
+
+* [Pigz](https://github.com/madler/pigz) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
+* [Snappy](https://github.com/google/snappy) - Open source compression library that is fast, stable and robuts.
+
 ## Data Exploration
 
 *Tools for performing data exploration.*
@@ -69,13 +77,14 @@ A curated list of awesome DataOps tools.
 
 *Tools related to storing data in data lakes.*
 
+* [Delta Lake](https://github.com/delta-io/delta) - An open source project that enables building a Lakehouse architecture on top of data lakes.
 * [LakeFS](https://github.com/treeverse/lakeFS) - Open source tool that transforms your object storage into a Git-like repository.
 
 ## Data Workflow
 
 *Tools related to data workflow/pipeline.*
 
-* [Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
+* [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
 * [Azkaban](https://github.com/azkaban/azkaban) - Batch workflow job scheduler created at LinkedIn to run Hadoop jobs.
 * [Dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
@@ -107,15 +116,17 @@ A curated list of awesome DataOps tools.
 
 *Tools related to serializing data.*
 
-* [Avro]()
-* [Delta Lake]()
-* [Parquet]()
-* [Snappy]()
+* [Apache Avro](https://github.com/apache/avro) - A data serialization system which is compact, fast and provides rich data structures.
+* [Apache ORC](https://github.com/apache/orc) - A self-describing type-aware columnar file format designed for Hadoop workloads.
+* [Apache Parquet](https://github.com/apache/parquet-mr) - A columnar storage format which provides efficient storage and encoding of data.
+* [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient binary object graph serialization framework for Java.
+* [ProtoBuf](https://github.com/protocolbuffers/protobuf) - Language-neutral, platform-neutral, extensible mechanism for serializing structured data.
 
 ## Data Visualization
 
 *Tools for performing data visualization (DataViz).*
 
+* [Apache Superset](https://github.com/apache/superset) - A modern data exploration and data visualization platform.
 * [Count](https://count.co) - SQL/drag-and-drop querying and visualisation tool based on notebooks.
 * [Dash](https://github.com/plotly/dash) - Analytical Web Apps for Python, R, Julia, and Jupyter.
 * [Data Studio](https://datastudio.google.com) - Reporting solution for power users who want to go beyond the data and dashboards of GA.
@@ -123,14 +134,13 @@ A curated list of awesome DataOps tools.
 * [Lux](https://github.com/lux-org/lux) - Fast and easy data exploration by automating the visualization and data analysis process.
 * [Metabase](https://www.metabase.com/) - The simplest, fastest way to get business intelligence and analytics to everyone.
 * [Redash](https://redash.io/) - Connect to any data source, easily visualize, dashboard and share your data.
-* [Superset](https://github.com/apache/superset) - A modern data exploration and data visualization platform.
 * [Tableau](https://www.tableau.com) - Powerful and fastest growing data visualization tool used in the business intelligence industry.
 
 ## Data Warehouse
 
 *Tools related to storing data in data warehouses (DW).*
 
-* [Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
+* [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
 
 ## Database
 
@@ -138,14 +148,14 @@ A curated list of awesome DataOps tools.
 
 ### Columnar Database
 
-* [Cassandra](https://github.com/apache/cassandra) - Open source column based DBMS designed to handle large amounts of data.
-* [Druid](https://github.com/apache/druid) - Designed to quickly ingest massive quantities of event data, and provide low-latency queries.
-* [HBase](https://github.com/apache/hbase) - An open-source, distributed, versioned, column-oriented store.
+* [Apache Cassandra](https://github.com/apache/cassandra) - Open source column based DBMS designed to handle large amounts of data.
+* [Apache Druid](https://github.com/apache/druid) - Designed to quickly ingest massive quantities of event data, and provide low-latency queries.
+* [Apache HBase](https://github.com/apache/hbase) - An open-source, distributed, versioned, column-oriented store.
 * [Scylla](https://github.com/scylladb/scylla) - Designed to be compatible with Cassandra while achieving higher throughputs and lower latencies.
 
 ### Document-Oriented Database
 
-* [CouchDB](https://github.com/apache/couchdb) - An open-source document-oriented NoSQL database, implemented in Erlang.
+* [Apache CouchDB](https://github.com/apache/couchdb) - An open-source document-oriented NoSQL database, implemented in Erlang.
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - A distributed document oriented database with a RESTful search engine.
 * [MongoDB](https://github.com/mongodb/mongo) - A cross-platform document database that uses JSON-like documents with optional schemas.
 * [RethinkDB](https://github.com/rethinkdb/rethinkdb) - The first open-source scalable database built for realtime applications.
@@ -158,7 +168,7 @@ A curated list of awesome DataOps tools.
 
 ### Key-Value Database
 
-* [Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+* [Apache Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
 * [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
 * [Memcached](https://github.com/memcached/memcached) - A high performance multithreaded event-based key/value cache store.
 * [Redis](https://github.com/redis/redis) - An in-memory key-value database that persists on disk.
@@ -206,8 +216,8 @@ A curated list of awesome DataOps tools.
 
 *Tools for parallel processing SQL statements.*
 
-* [Drill](https://github.com/apache/drill) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
-* [Impala](https://github.com/apache/impala) - Lightning-fast, distributed SQL queries for petabytes of data.
+* [Apache Drill](https://github.com/apache/drill) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
+* [Apache Impala](https://github.com/apache/impala) - Lightning-fast, distributed SQL queries for petabytes of data.
 * [Presto](https://github.com/prestodb/presto) - A distributed SQL query engine for big data.
 * [Trino](https://github.com/trinodb/trino) - A fast distributed SQL query engine for big data analytics.
 
