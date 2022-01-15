@@ -7,7 +7,6 @@ A curated list of awesome DataOps tools.
     - [Data Exploration](#data-exploration)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
-    - [Data Pipeline](#data-pipeline)
     - [Data Platform](#data-platform)
     - [Data Processing](#data-processing)
         - [Batch Processing](#batch-processing)
@@ -16,6 +15,7 @@ A curated list of awesome DataOps tools.
     - [Data Serialization](#data-serialization)
     - [Data Visualization](#data-visualization)
     - [Data Warehouse](#data-warehouse)
+    - [Data Workflow](#data-workflow)
     - [Database](#database)
         - [Columnar Database](#columnar-database)
         - [Document-Oriented Database](#document-oriented-database)
@@ -23,8 +23,9 @@ A curated list of awesome DataOps tools.
         - [Key-Value Database](#key-value-database)
         - [Relational Database](#relational-database)
         - [Time Series Database](#time-series-database)
+        - [Vector Database](#vector-database)
     - [File System](#file-system)
-    - [Monitoring](#monitoring)
+    - [Logging and Monitoring](#logging-and-monitoring)
     - [SQL Query Engine](#sql-query-engine)
 - [Resources](#resources)
     - [Articles](#articles)
@@ -70,11 +71,12 @@ A curated list of awesome DataOps tools.
 
 * [LakeFS](https://github.com/treeverse/lakeFS) - Open source tool that transforms your object storage into a Git-like repository.
 
-## Data Pipeline
+## Data Workflow
 
-*Tools related to data pipeline/workflow.*
+*Tools related to data workflow/pipeline.*
 
 * [Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
+* [Azkaban](https://github.com/azkaban/azkaban) - Batch workflow job scheduler created at LinkedIn to run Hadoop jobs.
 * [Dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
 * [Prefect](https://docs.prefect.io/) - A workflow management system, designed for modern infrastructure.
@@ -136,31 +138,51 @@ A curated list of awesome DataOps tools.
 
 ### Columnar Database
 
-* [Cassandra]()
+* [Cassandra](https://github.com/apache/cassandra) - Open source column based DBMS designed to handle large amounts of data.
+* [Druid](https://github.com/apache/druid) - Designed to quickly ingest massive quantities of event data, and provide low-latency queries.
+* [HBase](https://github.com/apache/hbase) - An open-source, distributed, versioned, column-oriented store.
+* [Scylla](https://github.com/scylladb/scylla) - Designed to be compatible with Cassandra while achieving significantly higher throughputs and lower latencies.
 
 ### Document-Oriented Database
 
-* [MongoDB]()
+* [CouchDB](https://github.com/apache/couchdb) - An open-source document-oriented NoSQL database, implemented in Erlang.
+* [Elasticsearch](https://github.com/elastic/elasticsearch) - A distributed document oriented database with a RESTful search engine.
+* [MongoDB](https://github.com/mongodb/mongo) - A cross-platform document-oriented database that uses JSON-like documents with optional schemas.
+* [RethinkDB](https://github.com/rethinkdb/rethinkdb) - The first open-source scalable database built for realtime applications.
 
 ### Graph Database
 
-* [Neo4j]()
-* [Titan]()
+* [ArangoDB](https://github.com/arangodb/arangodb) - A scalable open-source multi-model database natively supporting graph, document and search.
+* [Neo4j](https://github.com/neo4j/neo4j) - A high performance graph store with all the features expected of a mature and robust database.
+* [Titan](https://github.com/thinkaurelius/titan) - A highly scalable graph database optimized for storing and querying large graphs.
 
 ### Key-Value Database
 
-* [Memcached]()
-* [Redis]()
+* [Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+* [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
+* [Memcached](https://github.com/memcached/memcached) - A high performance multithreaded event-based key/value cache store.
+* [Redis](https://github.com/redis/redis) - An in-memory key-value database that persists on disk.
 
 ### Relational Database
 
-* [MariaDB]()
-* [MySQL]()
-* [PostgreSQL]()
+* [CockroachDB](https://github.com/cockroachdb/cockroach) - A cloud-native distributed SQL database designed to build, scale, and manage data-intensive applications.
+* [Crate](https://github.com/crate/crate) - A distributed SQL database that makes it simple to store and analyze massive amounts of data.
+* [MariaDB](https://github.com/MariaDB/server) - A replacement of MySQL with more features, new storage engines, fewer bugs, and better performance.
+* [MySQL](https://github.com/mysql/mysql-server) - One of the most popular open source transactional databases.
+* [PostgreSQL](https://github.com/postgres/postgres) - An advanced RDBMS that supports an extended subset of the SQL standard.
+* [RQLite](https://github.com/rqlite/rqlite) - A lightweight, distributed relational database, which uses SQLite as its storage engine.
 
 ### Time Series Database
 
-* [TimescaleDB]()
+* [Akumuli](https://github.com/akumuli/Akumuli) - Can be used to capture, store and process time-series data in real-time.
+* [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
+* [QuestDB](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster.
+* [TimescaleDB](https://github.com/timescale/timescaledb) - Open-source time-series SQL database optimized for fast ingest and complex queries.
+
+### Vector Database
+
+* [Milvus](https://github.com/milvus-io/milvus/) - An open source embedding vector similarity search engine powered by Faiss, NMSLIB and Annoy.
+* [Pinecone](https://www.pinecone.io) - Managed and distributed vector similarity search used with a lightweight SDK.
 
 ## File System
 
@@ -172,12 +194,13 @@ A curated list of awesome DataOps tools.
 * [S3]()
 * [Swift]()
 
-## Monitoring
+## Logging and Monitoring
 
-*Tools used for monitoring data storage and workflows.*
+*Tools used for logging and monitoring data workflows.*
 
-* [Grafana]()
-* [Prometheus]()
+* [Grafana](https://github.com/grafana/grafana) - Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, InfluxDB and many more.
+* [Loki](https://github.com/grafana/loki) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+* [Prometheus](https://github.com/prometheus/prometheus) - A monitoring system and time series database.
 
 ## SQL Query Engine
 
