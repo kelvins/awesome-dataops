@@ -6,9 +6,13 @@ A curated list of awesome DataOps tools.
     - [Database](#database)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
+    - [Data Pipeline](#data-pipeline)
     - [Data Platform](#data-platform)
+    - [Data Serialization](#data-serialization)
     - [Data Visualization](#data-visualization)
     - [Data Warehouse](#data-warehouse)
+    - [File System](#file-system)
+    - [Monitoring](#monitoring)
     - [SQL Query Engine](#sql-query-engine)
 - [Resources](#resources)
     - [Articles](#articles)
@@ -32,11 +36,19 @@ A curated list of awesome DataOps tools.
 
 *Tools related to storing data in data lakes.*
 
+## Data Pipeline
+
+*Tools related to data pipeline/workflow.*
+
 ## Data Platform
 
 *Tools with multiple purposes related to data operations.*
 
 * [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
+
+## Data Serialization
+
+*Tools related to serializing data.*
 
 ## Data Visualization
 
@@ -50,6 +62,14 @@ A curated list of awesome DataOps tools.
 *Tools related to storing data in data warehouses (DW).*
 
 * [Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
+
+## File System
+
+*Tools related to file system and data storage.*
+
+## Monitoring
+
+*Tools used for monitoring data storage and workflows.*
 
 ## SQL Query Engine
 
