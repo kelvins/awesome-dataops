@@ -29,6 +29,10 @@ A curated list of awesome DataOps tools.
 
 *Database tools for storing data.*
 
+## Data Catalog
+
+*Tools related to data cataloging.*
+
 ## Data Ingestion
 
 *Tools for performing data ingestion.*
