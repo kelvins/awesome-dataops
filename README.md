@@ -26,9 +26,7 @@ A curated list of awesome DataOps tools.
     - [Logging and Monitoring](#logging-and-monitoring)
     - [SQL Query Engine](#sql-query-engine)
 - [Resources](#resources)
-    - [Articles](#articles)
     - [Books](#books)
-    - [Events](#events)
     - [Other Lists](#other-lists)
     - [Slack](#slack)
 - [Contributing](#contributing)
@@ -62,11 +60,11 @@ A curated list of awesome DataOps tools.
 *Tools for performing data ingestion.*
 
 * [Amazon Kinesis](https://aws.amazon.com/kinesis/) - Easily collect, process, and analyze video and data streams in real time.
-* [Apache Gobblin](https://github.com/apache/gobblin) - A data integration framework that simplifies common aspects of big data such as data ingestion.
+* [Apache Gobblin](https://github.com/apache/gobblin) - A framework that simplifies common aspects of big data such as data ingestion.
 * [Apache Kafka](https://github.com/apache/kafka) - Open-source distributed event streaming platform used by thousands of companies.
 * [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub-sub messaging platform with a flexible messaging model and intuitive API.
 * [Embulk](https://github.com/embulk/embulk) - A parallel bulk data loader that helps data transfer between various storages.
-* [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files, RDBMS, NoSQL, Hadoop and more.
+* [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files.
 * [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
 * [Nakadi](https://github.com/zalando/nakadi) - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
@@ -95,11 +93,11 @@ A curated list of awesome DataOps tools.
 *Tools related to data processing (batch and stream).*
 
 * [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
-* [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful stream- and batch-processing capabilities.
-* [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for easily writing applications which process vast amounts of data in-parallel on large clusters.
+* [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful capabilities.
+* [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for easily writing applications which process vast amounts of data.
 * [Apache Hudi](https://github.com/apache/hudi) - Hadoop Upserts Deletes and Incrementals.
 * [Apache Nifi](https://github.com/apache/nifi) - An easy to use, powerful, and reliable system to process and distribute data.
-* [Apache Samza](https://github.com/apache/samza) - A distributed stream processing framework which uses Apache Kafka and Apache Hadoop YARN.
+* [Apache Samza](https://github.com/apache/samza) - A distributed stream processing framework which uses Apache Kafka and Hadoop YARN.
 * [Apache Spark](https://github.com/apache/spark) - A unified analytics engine for large-scale data processing.
 * [Apache Storm](https://github.com/apache/storm) - An open source distributed realtime computation system.
 * [Apache Tez](https://github.com/apache/tez) - A generic data-processing pipeline engine envisioned as a low-level engine.
@@ -148,7 +146,7 @@ A curated list of awesome DataOps tools.
 
 * [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing at scale.
 * [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
-* [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse designed for business agility.
+* [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse.
 
 ## Database
 
@@ -207,8 +205,8 @@ A curated list of awesome DataOps tools.
 *Tools related to file system and data storage.*
 
 * [Alluxio](https://github.com/Alluxio/alluxio) - A virtual distributed storage system.
-* [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Object storage service offering scalability, availability, security, and performance.
-* [Apache Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware.
+* [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Object storage built to retrieve any amount of data from anywhere
+* [Apache Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system.
 * [GlusterFS](https://github.com/gluster/glusterfs) - A software defined distributed storage that can scale to several petabytes.
 * [Google Cloud Storage (GCS)](https://cloud.google.com/storage) - Object storage for companies of all sizes, to store any amount of data.
 * [LizardFS](https://github.com/lizardfs/lizardfs) - A highly reliable, scalable and efficient distributed file system.
@@ -240,8 +238,6 @@ A curated list of awesome DataOps tools.
 
 Where to discover new tools and discuss about existing ones.
 
-## Articles
-
 ## Books
 
 * [Data Mesh: Delivering Data-Driven Value at Scale](https://www.oreilly.com/library/view/data-mesh/9781492092384/) (O'Reilly)
@@ -252,8 +248,6 @@ Where to discover new tools and discuss about existing ones.
 * [Learning Spark: Lightning-Fast Data Analytics](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/) (O'Reilly)
 * [Spark in Action](https://www.oreilly.com/library/view/spark-in-action/9781617295522/) (O'Reilly)
 * [Spark: The Definitive Guide](https://www.oreilly.com/library/view/spark-the-definitive/9781491912201/) (O'Reilly)
-
-## Events
 
 ## Other Lists
 
