@@ -8,8 +8,6 @@ A curated list of awesome DataOps tools.
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
     - [Data Processing](#data-processing)
-        - [Batch Processing](#batch-processing)
-        - [Stream Processing](#stream-processing)
     - [Data Quality](#data-quality)
     - [Data Serialization](#data-serialization)
         - [Data Compression](#data-compression)
@@ -96,14 +94,16 @@ A curated list of awesome DataOps tools.
 
 *Tools related to data processing (batch and stream).*
 
-### Batch Processing
-
-* [Apache Tez](https://github.com/apache/tez) - A generic data-processing pipeline engine envisioned as a low-level engine.
-
-### Stream Processing
-
 * [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
 * [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful stream- and batch-processing capabilities.
+* [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for easily writing applications which process vast amounts of data in-parallel on large clusters.
+* [Apache Hudi](https://github.com/apache/hudi) - Hadoop Upserts Deletes and Incrementals.
+* [Apache Nifi](https://github.com/apache/nifi) - An easy to use, powerful, and reliable system to process and distribute data.
+* [Apache Samza](https://github.com/apache/samza) - A distributed stream processing framework which uses Apache Kafka and Apache Hadoop YARN.
+* [Apache Spark](https://github.com/apache/spark) - A unified analytics engine for large-scale data processing.
+* [Apache Storm](https://github.com/apache/storm) - An open source distributed realtime computation system.
+* [Apache Tez](https://github.com/apache/tez) - A generic data-processing pipeline engine envisioned as a low-level engine.
+* [Faust](https://github.com/robinhood/faust) - A stream processing library, porting the ideas from Kafka Streams to Python.
 
 ## Data Quality
 
