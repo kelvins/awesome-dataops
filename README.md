@@ -113,7 +113,7 @@ A curated list of awesome DataOps tools.
 
 ## Data Serialization
 
-*Tools related to serializing data.*
+*Tools related to data serialization.*
 
 * [Apache Avro](https://github.com/apache/avro) - A data serialization system which is compact, fast and provides rich data structures.
 * [Apache ORC](https://github.com/apache/orc) - A self-describing type-aware columnar file format designed for Hadoop workloads.
