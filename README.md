@@ -4,6 +4,7 @@ A curated list of awesome DataOps tools.
 
 - [Awesome DataOps](#awesome-dataops)
     - [Database](#database)
+    - [Data Catalog](#data-catalog)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
     - [Data Pipeline](#data-pipeline)
