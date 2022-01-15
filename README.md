@@ -4,16 +4,15 @@ A curated list of awesome DataOps tools.
 
 - [Awesome DataOps](#awesome-dataops)
     - [Data Catalog](#data-catalog)
-    - [Data Compression](#data-compression)
     - [Data Exploration](#data-exploration)
     - [Data Ingestion](#data-ingestion)
     - [Data Lake](#data-lake)
-    - [Data Platform](#data-platform)
     - [Data Processing](#data-processing)
         - [Batch Processing](#batch-processing)
         - [Stream Processing](#stream-processing)
     - [Data Quality](#data-quality)
     - [Data Serialization](#data-serialization)
+        - [Data Compression](#data-compression)
     - [Data Visualization](#data-visualization)
     - [Data Warehouse](#data-warehouse)
     - [Data Workflow](#data-workflow)
@@ -50,20 +49,11 @@ A curated list of awesome DataOps tools.
 * [Metacat](https://github.com/Netflix/metacat) - Unified metadata exploration API service for Hive, RDS, Teradata, Redshift, S3 and Cassandra.
 * [OpenMetadata](https://open-metadata.org/) - A Single place to discover, collaborate and get your data right.
 
-## Data Compression
-
-*Tools for performing data compression.*
-
-* [Pigz](https://github.com/madler/pigz) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
-* [Snappy](https://github.com/google/snappy) - Open source compression library that is fast, stable and robuts.
-
 ## Data Exploration
 
 *Tools for performing data exploration.*
 
 * [Apache Zeppelin](https://zeppelin.apache.org/) - Enables data-driven, interactive data analytics and collaborative documents.
-* [BambooLib](https://github.com/tkrabel/bamboolib) -  An intuitive GUI for Pandas DataFrames.
-* [Google Colab](https://colab.research.google.com) - Hosted Jupyter notebook service that requires no setup to use.
 * [Jupyter Notebook](https://jupyter.org/) - Web-based notebook environment for interactive computing.
 * [JupyterLab](https://jupyterlab.readthedocs.io) - The next-generation user interface for Project Jupyter.
 * [Jupytext](https://github.com/mwouts/jupytext) - Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts.
@@ -72,6 +62,17 @@ A curated list of awesome DataOps tools.
 ## Data Ingestion
 
 *Tools for performing data ingestion.*
+
+* [Amazon Kinesis](https://aws.amazon.com/kinesis/) - Easily collect, process, and analyze video and data streams in real time.
+* [Apache Gobblin](https://github.com/apache/gobblin) - A data integration framework that simplifies common aspects of big data such as data ingestion.
+* [Apache Kafka](https://github.com/apache/kafka) - Open-source distributed event streaming platform used by thousands of companies.
+* [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub-sub messaging platform with a flexible messaging model and intuitive API.
+* [Embulk](https://github.com/embulk/embulk) - A parallel bulk data loader that helps data transfer between various storages.
+* [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files, RDBMS, NoSQL, Hadoop and more.
+* [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
+* [Nakadi](https://github.com/zalando/nakadi) - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
+* [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
+* [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
 
 ## Data Lake
 
@@ -85,16 +86,11 @@ A curated list of awesome DataOps tools.
 *Tools related to data workflow/pipeline.*
 
 * [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
+* [Apache Oozie](https://github.com/apache/oozie) - An extensible, scalable and reliable system to manage complex Hadoop workloads.
 * [Azkaban](https://github.com/azkaban/azkaban) - Batch workflow job scheduler created at LinkedIn to run Hadoop jobs.
 * [Dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
 * [Prefect](https://docs.prefect.io/) - A workflow management system, designed for modern infrastructure.
-
-## Data Platform
-
-*Tools with multiple purposes related to data operations.*
-
-* [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
 
 ## Data Processing
 
@@ -103,6 +99,9 @@ A curated list of awesome DataOps tools.
 ### Batch Processing
 
 ### Stream Processing
+
+* [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
+* [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful stream- and batch-processing capabilities.
 
 ## Data Quality
 
@@ -122,6 +121,11 @@ A curated list of awesome DataOps tools.
 * [Kryo](https://github.com/EsotericSoftware/kryo) - A fast and efficient binary object graph serialization framework for Java.
 * [ProtoBuf](https://github.com/protocolbuffers/protobuf) - Language-neutral, platform-neutral, extensible mechanism for serializing structured data.
 
+### Data Compression
+
+* [Pigz](https://github.com/madler/pigz) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
+* [Snappy](https://github.com/google/snappy) - Open source compression library that is fast, stable and robuts.
+
 ## Data Visualization
 
 *Tools for performing data visualization (DataViz).*
@@ -140,7 +144,9 @@ A curated list of awesome DataOps tools.
 
 *Tools related to storing data in data warehouses (DW).*
 
+* [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing at scale.
 * [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
+* [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse designed for business agility.
 
 ## Database
 
@@ -198,11 +204,15 @@ A curated list of awesome DataOps tools.
 
 *Tools related to file system and data storage.*
 
-* [GCS]()
-* [HDFS]()
-* [MinIO]()
-* [S3]()
-* [Swift]()
+* [Alluxio](https://github.com/Alluxio/alluxio) - A virtual distributed storage system.
+* [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Object storage service offering scalability, availability, security, and performance.
+* [Apache Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system designed to run on commodity hardware.
+* [GlusterFS](https://github.com/gluster/glusterfs) - A software defined distributed storage that can scale to several petabytes.
+* [Google Cloud Storage (GCS)](https://cloud.google.com/storage) - Object storage for companies of all sizes, to store any amount of data.
+* [LizardFS](https://github.com/lizardfs/lizardfs) - A highly reliable, scalable and efficient distributed file system.
+* [MinIO](https://github.com/minio/minio) - High Performance, Kubernetes Native Object Storage compatible with Amazon S3 API.
+* [SeaweedFS](https://github.com/chrislusf/seaweedfs) - A fast distributed storage system for blobs, objects, files, and data lake.
+* [Swift](https://github.com/openstack/swift) - A distributed object storage system designed to scale from a single machine to thousands of servers.
 
 ## Logging and Monitoring
 
@@ -218,6 +228,7 @@ A curated list of awesome DataOps tools.
 
 * [Apache Drill](https://github.com/apache/drill) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 * [Apache Impala](https://github.com/apache/impala) - Lightning-fast, distributed SQL queries for petabytes of data.
+* [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
 * [Presto](https://github.com/prestodb/presto) - A distributed SQL query engine for big data.
 * [Trino](https://github.com/trinodb/trino) - A fast distributed SQL query engine for big data analytics.
 
