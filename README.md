@@ -94,7 +94,7 @@ A curated list of awesome DataOps tools.
 
 * [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
 * [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful capabilities.
-* [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for easily writing applications which process vast amounts of data.
+* [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for writing applications which process vast amounts of data.
 * [Apache Hudi](https://github.com/apache/hudi) - Hadoop Upserts Deletes and Incrementals.
 * [Apache Nifi](https://github.com/apache/nifi) - An easy to use, powerful, and reliable system to process and distribute data.
 * [Apache Samza](https://github.com/apache/samza) - A distributed stream processing framework which uses Apache Kafka and Hadoop YARN.
@@ -144,7 +144,7 @@ A curated list of awesome DataOps tools.
 
 *Tools related to storing data in data warehouses (DW).*
 
-* [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing at scale.
+* [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing.
 * [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
 * [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse.
 
@@ -174,14 +174,14 @@ A curated list of awesome DataOps tools.
 
 ### Key-Value Database
 
-* [Apache Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+* [Apache Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key-value store that provides robust and scalable data storage.
 * [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
 * [Memcached](https://github.com/memcached/memcached) - A high performance multithreaded event-based key/value cache store.
 * [Redis](https://github.com/redis/redis) - An in-memory key-value database that persists on disk.
 
 ### Relational Database
 
-* [CockroachDB](https://github.com/cockroachdb/cockroach) - A cloud-native distributed database designed to build, scale, and manage data-intensive apps.
+* [CockroachDB](https://github.com/cockroachdb/cockroach) - A distributed database designed to build, scale, and manage data-intensive apps.
 * [Crate](https://github.com/crate/crate) - A distributed SQL database that makes it simple to store and analyze massive amounts of data.
 * [MariaDB](https://github.com/MariaDB/server) - A replacement of MySQL with more features, new storage engines and better performance.
 * [MySQL](https://github.com/mysql/mysql-server) - One of the most popular open source transactional databases.
