@@ -146,6 +146,7 @@ A curated list of awesome DataOps tools.
 
 * [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing.
 * [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
+* [Apache Kylin](https://github.com/apache/kylin) - An open source, distributed analytical data warehouse for big data
 * [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse.
 
 ## Database
