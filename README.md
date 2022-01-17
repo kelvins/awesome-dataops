@@ -175,6 +175,7 @@ A curated list of awesome DataOps tools.
 
 * [Apache Accumulo](https://github.com/apache/accumulo) - A sorted, distributed key-value store that provides robust and scalable data storage.
 * [etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
+* [EVCache](https://github.com/Netflix/EVCache) - A distributed in-memory data store for the cloud.
 * [Memcached](https://github.com/memcached/memcached) - A high performance multithreaded event-based key/value cache store.
 * [Redis](https://github.com/redis/redis) - An in-memory key-value database that persists on disk.
 
