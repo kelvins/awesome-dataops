@@ -192,6 +192,7 @@ A curated list of awesome DataOps tools.
 ### Time Series Database
 
 * [Akumuli](https://github.com/akumuli/Akumuli) - Can be used to capture, store and process time-series data in real-time.
+* [Atlas](https://github.com/Netflix/Atlas) - An in-memory dimensional time series database.
 * [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 * [QuestDB](https://github.com/questdb/questdb) - An open source SQL database designed to process time series data, faster.
 * [TimescaleDB](https://github.com/timescale/timescaledb) - Open-source time-series SQL database optimized for fast ingest and complex queries.
