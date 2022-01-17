@@ -6,11 +6,11 @@ A curated list of awesome DataOps tools.
     - [Data Catalog](#data-catalog)
     - [Data Exploration](#data-exploration)
     - [Data Ingestion](#data-ingestion)
-    - [Data Lake](#data-lake)
     - [Data Processing](#data-processing)
     - [Data Quality](#data-quality)
     - [Data Serialization](#data-serialization)
         - [Data Compression](#data-compression)
+        - [Data Table Format](#data-table-format)
     - [Data Visualization](#data-visualization)
     - [Data Warehouse](#data-warehouse)
     - [Data Workflow](#data-workflow)
@@ -70,13 +70,6 @@ A curated list of awesome DataOps tools.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
 
-## Data Lake
-
-*Tools related to storing data in data lakes.*
-
-* [Delta Lake](https://github.com/delta-io/delta) - An open source project that enables building a Lakehouse architecture on top of data lakes.
-* [LakeFS](https://github.com/treeverse/lakeFS) - Open source tool that transforms your object storage into a Git-like repository.
-
 ## Data Workflow
 
 *Tools related to data workflow/pipeline.*
@@ -95,7 +88,6 @@ A curated list of awesome DataOps tools.
 * [Apache Beam](https://github.com/apache/beam) - A unified model for defining both batch and streaming data-parallel processing pipelines.
 * [Apache Flink](https://github.com/apache/flink) - An open source stream processing framework with powerful capabilities.
 * [Apache Hadoop MapReduce](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html) - A framework for writing applications which process vast amounts of data.
-* [Apache Hudi](https://github.com/apache/hudi) - Hadoop Upserts Deletes and Incrementals.
 * [Apache Nifi](https://github.com/apache/nifi) - An easy to use, powerful, and reliable system to process and distribute data.
 * [Apache Samza](https://github.com/apache/samza) - A distributed stream processing framework which uses Apache Kafka and Hadoop YARN.
 * [Apache Spark](https://github.com/apache/spark) - A unified analytics engine for large-scale data processing.
@@ -126,6 +118,12 @@ A curated list of awesome DataOps tools.
 * [Pigz](https://github.com/madler/pigz) - A parallel implementation of gzip for modern multi-processor, multi-core machines.
 * [Snappy](https://github.com/google/snappy) - Open source compression library that is fast, stable and robuts.
 
+### Data Table Format
+
+* [Apache Hudi](https://github.com/apache/hudi) - Manages the storage of large analytical datasets on DFS.
+* [Apache Iceberg](https://github.com/apache/iceberg) - Open table format for huge analytic datasets.
+* [Delta Lake](https://github.com/delta-io/delta) - An open source project that enables building a Lakehouse architecture on top of data lakes.
+
 ## Data Visualization
 
 *Tools for performing data visualization (DataViz).*
@@ -146,7 +144,7 @@ A curated list of awesome DataOps tools.
 
 * [Amazon Redshift](https://aws.amazon.com/redshift/) - Accelerate your time to insights with fast, easy, and secure cloud data warehousing.
 * [Apache Hive](https://github.com/apache/hive) - Facilitates reading, writing, and managing large datasets residing in distributed storage.
-* [Apache Kylin](https://github.com/apache/kylin) - An open source, distributed analytical data warehouse for big data
+* [Apache Kylin](https://github.com/apache/kylin) - An open source, distributed analytical data warehouse for big data.
 * [Google BigQuery](https://cloud.google.com/bigquery) - Serverless, highly scalable, and cost-effective multicloud data warehouse.
 
 ## Database
@@ -207,10 +205,11 @@ A curated list of awesome DataOps tools.
 *Tools related to file system and data storage.*
 
 * [Alluxio](https://github.com/Alluxio/alluxio) - A virtual distributed storage system.
-* [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Object storage built to retrieve any amount of data from anywhere
+* [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Object storage built to retrieve any amount of data from anywhere.
 * [Apache Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) - A distributed file system.
 * [GlusterFS](https://github.com/gluster/glusterfs) - A software defined distributed storage that can scale to several petabytes.
 * [Google Cloud Storage (GCS)](https://cloud.google.com/storage) - Object storage for companies of all sizes, to store any amount of data.
+* [LakeFS](https://github.com/treeverse/lakeFS) - Open source tool that transforms your object storage into a Git-like repository.
 * [LizardFS](https://github.com/lizardfs/lizardfs) - A highly reliable, scalable and efficient distributed file system.
 * [MinIO](https://github.com/minio/minio) - High Performance, Kubernetes Native Object Storage compatible with Amazon S3 API.
 * [SeaweedFS](https://github.com/chrislusf/seaweedfs) - A fast distributed storage system for blobs, objects, files, and data lake.
