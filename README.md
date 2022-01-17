@@ -24,6 +24,7 @@ A curated list of awesome DataOps tools.
         - [Vector Database](#vector-database)
     - [File System](#file-system)
     - [Logging and Monitoring](#logging-and-monitoring)
+    - [Metadata Service](#metadata-service)
     - [SQL Query Engine](#sql-query-engine)
 - [Resources](#resources)
     - [Books](#books)
@@ -223,6 +224,13 @@ A curated list of awesome DataOps tools.
 * [Grafana](https://github.com/grafana/grafana) - Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, InfluxDB and more.
 * [Loki](https://github.com/grafana/loki) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [Prometheus](https://github.com/prometheus/prometheus) - A monitoring system and time series database.
+
+## Metadata Service
+
+*Tools used for storing and serving metadata.*
+
+* [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore) - Service that stores metadata related to Apache Hive and other services.
+* [Metacat](https://github.com/Netflix/metacat) - Provides you information about what data you have, where it resides and how to process it.
 
 ## SQL Query Engine
 
