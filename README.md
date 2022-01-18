@@ -188,6 +188,7 @@ A curated list of awesome DataOps tools.
 * [MySQL](https://github.com/mysql/mysql-server) - One of the most popular open source transactional databases.
 * [PostgreSQL](https://github.com/postgres/postgres) - An advanced RDBMS that supports an extended subset of the SQL standard.
 * [RQLite](https://github.com/rqlite/rqlite) - A lightweight, distributed relational database, which uses SQLite as its storage engine.
+* [SQLite](https://github.com/sqlite/sqlite) - A popular choice as embedded database software for local/client storage.
 
 ### Time Series Database
 
