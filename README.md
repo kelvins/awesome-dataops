@@ -227,7 +227,7 @@ A curated list of awesome DataOps tools.
 * [Grafana](https://github.com/grafana/grafana) - Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, InfluxDB and more.
 * [Loki](https://github.com/grafana/loki) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [Prometheus](https://github.com/prometheus/prometheus) - A monitoring system and time series database.
-* [whylogs](https://github.com/whylabs/whylogs) - The open source standard for data logging. The only tool for creating data logs, enabling monitoing for data drift and data quality issues.
+* [Whylogs](https://github.com/whylabs/whylogs) - A tool for creating data logs, enabling monitoring for data drift and data quality issues.
 
 ## Metadata Service
 
