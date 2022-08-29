@@ -81,7 +81,9 @@ A curated list of awesome DataOps tools.
 * [Dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
 * [Prefect](https://docs.prefect.io/) - A workflow management system, designed for modern infrastructure.
-
+* [DVC](https://github.com/iterative/dvc) - Open-source version control system for Machine Learning Projects
+* [CML](https://github.com/iterative/cml) - Continuous Machine Learning | CI/CD for ML
+ 
 ## Data Processing
 
 *Tools related to data processing (batch and stream).*
