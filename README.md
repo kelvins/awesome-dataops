@@ -105,6 +105,7 @@ A curated list of awesome DataOps tools.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
+* [cleanlab](https://github.com/cleanlab/cleanlab): Detect various issues in ML datasets like label errors and outliers, estimate consensus + annotator-quality for multi-annotator datasets, and decide what data is best to (re)label next.
 
 ## Data Serialization
 
