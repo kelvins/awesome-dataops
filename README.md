@@ -100,12 +100,12 @@ A curated list of awesome DataOps tools.
 
 *Tools for ensuring data quality.*
 
+* [Cleanlab](https://github.com/cleanlab/cleanlab) - Data-centric AI tool to detect (non-predefined) issues in ML data like label errors or outliers.
 * [Cerberus](https://github.com/pyeve/cerberus) - Lightweight, extensible data validation library for Python.
 * [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for measuring data quality in large datasets.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
-* [cleanlab](https://github.com/cleanlab/cleanlab): Detect various issues in ML datasets like label errors and outliers, estimate consensus + annotator-quality for multi-annotator datasets, and decide what data is best to (re)label next.
 
 ## Data Serialization
 
