@@ -107,6 +107,7 @@ A curated list of awesome DataOps tools.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
+* [DataKitchen Open Source Data Observability](https://docs.datakitchen.io/articles/?readerUiPreview=1#!open-source-data-observability/data-observability-overview) - Data Quality Validation Testing, Anomaly Detection, and Profiling (and End to End Data Journey Observability)
 
 ## Data Serialization
 
@@ -234,6 +235,7 @@ A curated list of awesome DataOps tools.
 * [Loki](https://github.com/grafana/loki) - A horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [Prometheus](https://github.com/prometheus/prometheus) - A monitoring system and time series database.
 * [Whylogs](https://github.com/whylabs/whylogs) - A tool for creating data logs, enabling monitoring for data drift and data quality issues.
+* [DataKitchen Open Source Data Observability](https://docs.datakitchen.io/articles/?readerUiPreview=1#!open-source-data-observability/data-observability-overview) - End to End Data Journey Observability and Alerting (and Data Testing/Anomalies/Profiling )
 
 ## Metadata Service
 
@@ -259,7 +261,7 @@ A curated list of awesome DataOps tools.
 Where to discover new tools and discuss about existing ones.
 
 ## Books
-
+* [DataOps Cookbook(free)](https://datakitchen.io/the-dataops-cookbook/)
 * [Data Mesh: Delivering Data-Driven Value at Scale](https://www.oreilly.com/library/view/data-mesh/9781492092384/) (O'Reilly)
 * [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (O'Reilly)
 * [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (O'Reilly)
