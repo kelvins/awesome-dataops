@@ -45,6 +45,7 @@ A curated list of awesome DataOps tools.
 * [Magda](https://github.com/magda-io/magda) - A federated, open-source data catalog for all your big data and small data.
 * [Marquez](https://github.com/MarquezProject/marquez) - Service for the collection, aggregation, and visualization of a data ecosystem's metadata.
 * [Metacat](https://github.com/Netflix/metacat) - Unified metadata exploration API service for Hive, RDS, Teradata, Redshift, S3 and Cassandra.
+* [OpenLineage](https://github.com/OpenLineage/openlineage) - Open standard for metadata and lineage collection.
 * [OpenMetadata](https://open-metadata.org/) - A Single place to discover, collaborate and get your data right.
 * [Unity Catalog](https://www.unitycatalog.io/) - Industry’s only universal catalog for data and AI.
 
