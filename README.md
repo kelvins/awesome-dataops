@@ -73,6 +73,7 @@ A curated list of awesome DataOps tools.
 * [Nakadi](https://github.com/zalando/nakadi) - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
+* [CsvPath Framework](https://www.csvpath.org/) - Fills the preboarding gap between MFT and the data lake for delimited data files.
 
 ## Data Workflow
 
