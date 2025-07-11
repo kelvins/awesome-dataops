@@ -25,6 +25,7 @@ A curated list of awesome DataOps tools.
     - [File System](#file-system)
     - [Logging and Monitoring](#logging-and-monitoring)
     - [Metadata Service](#metadata-service)
+    - [SQL Playground](#sql-playground)
     - [SQL Query Engine](#sql-query-engine)
 - [Resources](#resources)
     - [Books](#books)
@@ -246,6 +247,13 @@ A curated list of awesome DataOps tools.
 
 * [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore) - Service that stores metadata related to Apache Hive and other services.
 * [Metacat](https://github.com/Netflix/metacat) - Provides you information about what data you have, where it resides and how to process it.
+
+## SQL Playground
+
+*Tools for testing and sharing SQL snippets in mock databases.*
+
+* [RunSQL](https://runsql.com/) - Free online SQL playground for MySQL, PostgreSQL, and SQL Server.
+* [SQLFiddle](https://sqlfiddle.com/) - Online SQL compiler for learning and practicing SQL.
 
 ## SQL Query Engine
 
