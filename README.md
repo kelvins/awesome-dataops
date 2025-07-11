@@ -27,7 +27,6 @@ A curated list of awesome DataOps tools.
     - [Metadata Service](#metadata-service)
     - [SQL Playground](#sql-playground)
     - [SQL Query Engine](#sql-query-engine)
-
 - [Resources](#resources)
     - [Books](#books)
     - [Other Lists](#other-lists)
