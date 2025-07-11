@@ -25,8 +25,8 @@ A curated list of awesome DataOps tools.
     - [File System](#file-system)
     - [Logging and Monitoring](#logging-and-monitoring)
     - [Metadata Service](#metadata-service)
-    - [SQL Query Engine](#sql-query-engine)
     - [SQL Playground](#sql-playground)
+    - [SQL Query Engine](#sql-query-engine)
 
 - [Resources](#resources)
     - [Books](#books)
@@ -249,6 +249,13 @@ A curated list of awesome DataOps tools.
 * [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore) - Service that stores metadata related to Apache Hive and other services.
 * [Metacat](https://github.com/Netflix/metacat) - Provides you information about what data you have, where it resides and how to process it.
 
+## SQL Playground
+
+*Tools for testing and sharing SQL snippets in mock databases.*
+
+* [RunSQL](https://runsql.com/) - Free online SQL playground for MySQL, PostgreSQL, and SQL Server.
+* [SQLFiddle](https://sqlfiddle.com/) - Online SQL compiler for learning and practicing SQL.
+
 ## SQL Query Engine
 
 *Tools for parallel processing SQL statements.*
@@ -257,15 +264,7 @@ A curated list of awesome DataOps tools.
 * [Apache Impala](https://github.com/apache/impala) - Lightning-fast, distributed SQL queries for petabytes of data.
 * [Dremio](https://www.dremio.com/) - Power high-performing BI dashboards and interactive analytics directly on data lake.
 * [Presto](https://github.com/prestodb/presto) - A distributed SQL query engine for big data.
-* [Trino](https:
-* //github.com/trinodb/trino) - A fast distributed SQL query engine for big data analytics.
-
-## SQL Playground
-
-*Tools for testing and sharing SQL snippets in mock databases.*
-
-* [RunSQL](https://runsql.com/) - Free online SQL playground for MySQL, PostgreSQL, and SQL Server.
-* [SQLFiddle](https://sqlfiddle.com/) - Online SQL compiler for learning and practicing SQL.
+* [Trino](https://github.com/trinodb/trino) - A fast distributed SQL query engine for big data analytics.
 
 ---
 
