@@ -58,6 +58,7 @@ A curated list of awesome DataOps tools.
 * [Jupyter Notebook](https://jupyter.org/) - Web-based notebook environment for interactive computing.
 * [JupyterLab](https://jupyterlab.readthedocs.io) - The next-generation user interface for Project Jupyter.
 * [Jupytext](https://github.com/mwouts/jupytext) - Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts.
+* [Marimo](https://github.com/marimo-team/marimo) - A reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.
 * [Polynote](https://polynote.org/) - The polyglot notebook with first-class Scala support.
 
 ## Data Ingestion
