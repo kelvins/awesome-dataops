@@ -102,7 +102,7 @@ A curated list of awesome DataOps tools.
 * [skrub](http://skrub-data.org) - A python library to preprocess data for and with machine learning. Integrates DataOps patterns and connects well with objects with the scikit-learn interface.
 
 
-# Data Quality
+## Data Quality
 
 *Tools for ensuring data quality.*
 
