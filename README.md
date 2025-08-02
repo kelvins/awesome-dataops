@@ -99,6 +99,8 @@ A curated list of awesome DataOps tools.
 * [Apache Storm](https://github.com/apache/storm) - An open source distributed realtime computation system.
 * [Apache Tez](https://github.com/apache/tez) - A generic data-processing pipeline engine envisioned as a low-level engine.
 * [Faust](https://github.com/robinhood/faust) - A stream processing library, porting the ideas from Kafka Streams to Python.
+* [skrub](http://skrub-data.org) - A python library to preprocess data for and with machine learning. Integrates DataOps patterns and connects well with objects with the scikit-learn interface.
+
 
 ## Data Quality
 
