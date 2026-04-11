@@ -139,6 +139,7 @@ A curated list of awesome DataOps tools.
 
 *Tools for performing data visualization (DataViz).*
 
+* [AI for Database](https://aifordatabase.com) - Connect to any database and interact with it in plain English. No SQL needed — get instant insights, build self-refreshing dashboards, and trigger automated workflows.
 * [Apache Superset](https://github.com/apache/superset) - A modern data exploration and data visualization platform.
 * [Count](https://count.co) - SQL/drag-and-drop querying and visualisation tool based on notebooks.
 * [Dash](https://github.com/plotly/dash) - Analytical Web Apps for Python, R, Julia, and Jupyter.
