@@ -59,6 +59,7 @@ A curated list of awesome DataOps tools.
 * [JupyterLab](https://jupyterlab.readthedocs.io) - The next-generation user interface for Project Jupyter.
 * [Jupytext](https://github.com/mwouts/jupytext) - Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts.
 * [Marimo](https://github.com/marimo-team/marimo) - A reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.
+* [OneQuery](https://github.com/wordbricks/onequery) - Self-hosted data access gateway for safe, auditable queries across databases, analytics tools, and APIs.
 * [Polynote](https://polynote.org/) - The polyglot notebook with first-class Scala support.
 
 ## Data Ingestion
