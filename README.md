@@ -215,6 +215,7 @@ A curated list of awesome DataOps tools.
 
 ### Vector Database
 
+* [Infino](https://github.com/infino-ai/infino) - An embedded vector search engine that also answers BM25 and SQL queries over the same data, stored as Parquet on object storage.
 * [Milvus](https://github.com/milvus-io/milvus/) - An open source embedding vector similarity search engine powered by Faiss, NMSLIB and Annoy.
 * [Pinecone](https://www.pinecone.io) - Managed and distributed vector similarity search used with a lightweight SDK.
 * [Qdrant](https://github.com/qdrant/qdrant) - An open source vector similarity search engine with extended filtering support.
