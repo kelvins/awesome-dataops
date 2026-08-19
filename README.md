@@ -83,6 +83,7 @@ A curated list of awesome DataOps tools.
 * [Apache Airflow](https://github.com/apache/airflow) - A platform to programmatically author, schedule, and monitor workflows.
 * [Apache Oozie](https://github.com/apache/oozie) - An extensible, scalable and reliable system to manage complex Hadoop workloads.
 * [Azkaban](https://github.com/azkaban/azkaban) - Batch workflow job scheduler created at LinkedIn to run Hadoop jobs.
+* [Bruin](https://github.com/bruin-data/bruin) - A data pipeline framework combining ingestion, SQL and Python transformations, and quality checks.
 * [Dagster](https://github.com/dagster-io/dagster) - An orchestration platform for the development, production, and observation of data assets.
 * [Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
 * [Prefect](https://docs.prefect.io/) - A workflow management system, designed for modern infrastructure.
