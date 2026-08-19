@@ -72,6 +72,7 @@ A curated list of awesome DataOps tools.
 * [Embulk](https://github.com/embulk/embulk) - A parallel bulk data loader that helps data transfer between various storages.
 * [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files.
 * [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
+* [ingestr](https://github.com/bruin-data/ingestr) - A CLI tool to copy data between any databases with a single command.
 * [Nakadi](https://github.com/zalando/nakadi) - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
