@@ -69,6 +69,7 @@ A curated list of awesome DataOps tools.
 * [Apache Gobblin](https://github.com/apache/gobblin) - A framework that simplifies common aspects of big data such as data ingestion.
 * [Apache Kafka](https://github.com/apache/kafka) - Open-source distributed event streaming platform used by thousands of companies.
 * [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub-sub messaging platform with a flexible messaging model and intuitive API.
+* [Datanika](https://datanika.io) - Open-source ELT platform with 35 connectors, dbt transformations and scheduling in one UI.
 * [Embulk](https://github.com/embulk/embulk) - A parallel bulk data loader that helps data transfer between various storages.
 * [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files.
 * [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
