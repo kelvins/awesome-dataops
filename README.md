@@ -112,6 +112,7 @@ A curated list of awesome DataOps tools.
 * [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for measuring data quality in large datasets.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
+* [provider-truth-reconciler](https://github.com/FLiPPpro/provider-truth-reconciler) - Reconciles what an automation claims it sent against what the provider actually accepted, reporting any unconfirmed item as UNKNOWN instead of folding it into success; it compares two supplied records and never observes the provider itself, so a wrong provider report is inherited, not caught.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
 
 ## Data Serialization
