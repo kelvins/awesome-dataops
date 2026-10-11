@@ -73,6 +73,7 @@ A curated list of awesome DataOps tools.
 * [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files.
 * [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
 * [Nakadi](https://github.com/zalando/nakadi) - A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues.
+* [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Oracle, SQL Server, DB2, Kafka and S3 into Apache Iceberg, with CDC and table maintenance. Written in Go.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
 
