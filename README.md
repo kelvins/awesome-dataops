@@ -70,7 +70,8 @@ A curated list of awesome DataOps tools.
 * [Apache Gobblin](https://github.com/apache/gobblin) - A framework that simplifies common aspects of big data such as data ingestion.
 * [Apache Kafka](https://github.com/apache/kafka) - Open-source distributed event streaming platform used by thousands of companies.
 * [Apache Pulsar](https://github.com/apache/pulsar) - Distributed pub-sub messaging platform with a flexible messaging model and intuitive API.
-* [Datanika](https://datanika.io) - Open-source ELT platform with 35 connectors, dbt transformations and scheduling in one UI.
+* [CsvPath Framework](https://www.csvpath.org/) - Fills the preboarding gap between MFT and the data lake for delimited data files.
+* [Datanika](https://datanika.io) - Open-source ELT platform for ingestion, dbt transformations, and scheduling.
 * [Embulk](https://github.com/embulk/embulk) - A parallel bulk data loader that helps data transfer between various storages.
 * [Fluentd](https://github.com/fluent/fluentd) - Collects events from various data sources and writes them to files.
 * [Google PubSub](https://cloud.google.com/pubsub) - Ingest events for streaming into BigQuery, data lakes or operational databases.
@@ -79,7 +80,6 @@ A curated list of awesome DataOps tools.
 * [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Kafka and more into Apache Iceberg.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
-* [CsvPath Framework](https://www.csvpath.org/) - Fills the preboarding gap between MFT and the data lake for delimited data files.
 
 ## Data Workflow
 
@@ -222,7 +222,7 @@ A curated list of awesome DataOps tools.
 
 ### Vector Database
 
-* [Infino](https://github.com/infino-ai/infino) - An embedded vector search engine that also answers BM25 and SQL queries over the same data, stored as Parquet on object storage.
+* [Infino](https://github.com/infino-ai/infino) - Embedded vector and full-text search with SQL over Parquet.
 * [Milvus](https://github.com/milvus-io/milvus/) - An open source embedding vector similarity search engine powered by Faiss, NMSLIB and Annoy.
 * [Pinecone](https://www.pinecone.io) - Managed and distributed vector similarity search used with a lightweight SDK.
 * [Qdrant](https://github.com/qdrant/qdrant) - An open source vector similarity search engine with extended filtering support.
