@@ -78,6 +78,7 @@ A curated list of awesome DataOps tools.
 * [OLake](https://github.com/datazip-inc/olake) - Open-source replication of Postgres, MySQL, MongoDB, Kafka and more into Apache Iceberg.
 * [Pravega](https://github.com/pravega/pravega) - An open source distributed storage service implementing Streams.
 * [RabbitMQ](https://www.rabbitmq.com/) - One of the most popular open source message brokers.
+* [CsvPath Framework](https://www.csvpath.org/) - Fills the preboarding gap between MFT and the data lake for delimited data files.
 
 ## Data Workflow
 
