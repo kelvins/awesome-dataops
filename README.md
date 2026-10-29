@@ -111,7 +111,7 @@ A curated list of awesome DataOps tools.
 
 * [Cerberus](https://github.com/pyeve/cerberus) - Lightweight, extensible data validation library for Python.
 * [Cleanlab](https://github.com/cleanlab/cleanlab) - Data-centric AI tool to detect (non-predefined) issues in ML data like label errors or outliers.
-* [DataOps TestGen](https://github.com/DataKitchen/dataops-testgen) - Open-source data quality tool that profiles tables, generates tests, and monitors freshness, volume, and schema.
+* [DataOps TestGen](https://github.com/DataKitchen/dataops-testgen) - Open-source data quality tool that profiles tables, generates tests, and monitors data.
 * [DataProfiler](https://github.com/capitalone/DataProfiler) - A Python library designed to make data analysis, monitoring, and sensitive data detection easy.
 * [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for measuring data quality in large datasets.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
