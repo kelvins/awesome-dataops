@@ -117,6 +117,7 @@ A curated list of awesome DataOps tools.
 * [DataOps TestGen](https://github.com/DataKitchen/dataops-testgen) - Open-source data quality tool that profiles tables, generates tests, and monitors data.
 * [DataProfiler](https://github.com/capitalone/DataProfiler) - A Python library designed to make data analysis, monitoring, and sensitive data detection easy.
 * [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for measuring data quality in large datasets.
+* [Feature Contracts](https://github.com/RishabhPande/feature-contracts) - Experimental Python checks for broken relations between ML features, with a synthetic example.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
