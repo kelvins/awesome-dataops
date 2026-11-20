@@ -120,6 +120,7 @@ A curated list of awesome DataOps tools.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
+* [tracemodel](https://github.com/datayoga-io/tracemodel) - A Python library that runs declared checks on financial figures and shows the source of each value that a failed check read.
 
 ## Data Serialization
 
