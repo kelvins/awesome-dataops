@@ -283,6 +283,7 @@ Where to discover new tools and discuss about existing ones.
 
 ## Books
 
+* [Data Engineering for Multimodal AI](https://www.oreilly.com/library/view/-/9781098190774/) (O'Reilly)
 * [Data Mesh: Delivering Data-Driven Value at Scale](https://www.oreilly.com/library/view/data-mesh/9781492092384/) (O'Reilly)
 * [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (O'Reilly)
 * [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) (O'Reilly)
