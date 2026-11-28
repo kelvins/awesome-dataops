@@ -119,6 +119,7 @@ A curated list of awesome DataOps tools.
 * [Deequ](https://github.com/awslabs/deequ) - A library built on top of Apache Spark for measuring data quality in large datasets.
 * [Great Expectations](https://greatexpectations.io) - A Python data validation framework that allows to test your data against datasets.
 * [JSON Schema](https://json-schema.org/) - A vocabulary that allows you to annotate and validate JSON documents.
+* [Nullwake](https://github.com/akhilp-prog/nullwake) - Self-hosted freshness, volume, schema and SQL-rule checks for Postgres, Snowflake and BigQuery, with alerts routed to each table's owner.
 * [SodaSQL](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
 
 ## Data Serialization
